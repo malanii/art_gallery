@@ -153,8 +153,6 @@ body{
 
 .view-more-button {
     color: white;
-    /*margin: auto;*/
-    /*margin-right: 20px;*/
     margin: 20px 20px 20px 160px;
     position: relative;
     width: 150px;
@@ -226,6 +224,4 @@ body{
     padding: 20px;
     line-height: 1.2;
     font-family: 'Playfair Display', serif;
-    /*display: block;*/
-    /*padding: 50px;*/
 }
