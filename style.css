@@ -4,13 +4,13 @@ body{
 }
 .wrapper {
     /*width: 100%;*/
-    min-height: 100%;
+    min-height: 100vh;
     background-image: url("img/b.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     overflow: hidden;
-    padding: 2.5rem 0;
+    /*padding: 2.5rem 0;*/
 
 
 }
@@ -18,7 +18,7 @@ body{
 .contacts p {
     color: white;
     text-align: right;
-    padding: 0 20px 15px;
+    padding: 20px 15px;
     font-family: 'Playfair Display', serif;
     font-weight: 600;
 }
@@ -76,11 +76,7 @@ body{
     position: relative;
     overflow: hidden;
     animation-name: loading;
-    animation-duration: 3s;
-}
-
-.flex-block:hover {
-    animation-duration: 10s;
+    animation-duration: 4s;
 }
 
 
