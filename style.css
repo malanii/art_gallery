@@ -39,7 +39,7 @@ body{
     writing-mode: vertical-rl;
     text-orientation: upright;
     text-align: center;
-    padding: 14vh 2vh 0;
+    padding: 15vh 2vh 0;
     font-family: 'Playfair Display', serif;
 }
 
@@ -57,7 +57,7 @@ body{
     font-family: 'Playfair Display', serif;
     /*display: block;*/
     font-size: 10px;
-    padding: 30px 15px;
+    padding: 2vh 2vh 0;
     font-weight: 700;
 
 }
