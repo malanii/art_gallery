@@ -38,7 +38,8 @@ body{
     font-size: 9px;
     writing-mode: vertical-rl;
     text-orientation: upright;
-    padding: 85px 16px 30px;
+    text-align: center;
+    padding: 14vh 2vh 0;
     font-family: 'Playfair Display', serif;
 }
 
@@ -127,7 +128,7 @@ body{
 }
 
 .img-big-size {
-    width: 520px;
+    width: 65vh;
     height: 80vh;
     /*height: 100%*/
 
@@ -135,7 +136,7 @@ body{
 
 .img-small-wrapper {
     text-align: center;
-    padding-top: 30%;
+    padding-top: 30vh;
     margin-left: -70px;
     margin-right: 50px;
     z-index: 100;
