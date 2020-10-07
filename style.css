@@ -36,6 +36,7 @@ body{
 
 
 .aside {
+    position: relative;
     background-color: black;
     z-index: 100;
 }
@@ -52,12 +53,15 @@ body{
 
 }
 .aside span {
+    position: absolute;
+    bottom: 2vh;
+    padding: 0 2vh;
     color: white;
     font-size: 9px;
     writing-mode: vertical-rl;
     text-orientation: upright;
     text-align: center;
-    padding: 10vh 2vh 0;
+    /*padding: 10vh 2vh 0;*/
     font-family: 'Playfair Display', serif;
 }
 .container {
@@ -137,8 +141,8 @@ body{
     padding-top: 30vh;
     margin-left: -70px;
     margin-right: 50px;
-    z-index: 100;
-    bottom: 0;
+    /*z-index: 100;*/
+    /*bottom: 0;*/
 }
 
 .view-more-block {
@@ -171,7 +175,7 @@ body{
     position: absolute;
     font-family: 'Playfair Display', serif;
     top:80px;
-    right: 63px;
+    right: 51px;
     background-color: transparent;
     /*padding: 40px 0;*/
     text-align: center;
@@ -210,14 +214,22 @@ body{
     filter: blur(30px);
 
 }
+.view-more-block-text{
+position: absolute;
+    top: 30vh;
+}
 .view-more-block p{
     font-size: 18px;
+
+
     /*margin: 142px 0 100px;*/
     text-transform: uppercase;
     color: white;
     width: 300px;
+    padding: 57px 10px;
     /*text-align: center;*/
-    padding: 12vh 3vh 0;
+    /*padding-top: 30vh;*/
+    /*padding: 12vh 3vh 0;*/
     line-height: 1.2;
     font-family: 'Playfair Display', serif;
 }
