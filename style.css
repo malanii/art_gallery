@@ -3,16 +3,12 @@ body{
     cursor: url("img/cursor.png"), auto;
 }
 .wrapper {
-    /*width: 100%;*/
     min-height: 100vh;
     background-image: url("img/b.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     overflow: hidden;
-    /*padding: 2.5rem 0;*/
-
-
 }
 
 .contacts p {
@@ -46,8 +42,7 @@ body{
     text-orientation: upright;
     color: white;
     font-family: 'Playfair Display', serif;
-    /*display: block;*/
-    font-size: 10px;
+    font-size: 9px;
     padding: 2vh 2vh 0;
     font-weight: 700;
 
@@ -57,11 +52,10 @@ body{
     bottom: 2vh;
     padding: 0 2vh;
     color: white;
-    font-size: 9px;
+    font-size: 8px;
     writing-mode: vertical-rl;
     text-orientation: upright;
     text-align: center;
-    /*padding: 10vh 2vh 0;*/
     font-family: 'Playfair Display', serif;
 }
 .container {
@@ -71,7 +65,6 @@ body{
     background-color: #fffbf6;
     display: flex;
     overflow: hidden;
-    /*margin: 10% 10%;*/
 }
 
 .flex-block {
@@ -220,16 +213,10 @@ position: absolute;
 }
 .view-more-block p{
     font-size: 18px;
-
-
-    /*margin: 142px 0 100px;*/
     text-transform: uppercase;
     color: white;
     width: 300px;
     padding: 57px 10px;
-    /*text-align: center;*/
-    /*padding-top: 30vh;*/
-    /*padding: 12vh 3vh 0;*/
     line-height: 1.2;
     font-family: 'Playfair Display', serif;
 }
